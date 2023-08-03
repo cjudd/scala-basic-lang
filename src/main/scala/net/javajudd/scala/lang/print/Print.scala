@@ -6,5 +6,5 @@ object Print extends App {
 
   println("Pi equals " + pi)
 
-  println(f"Pi equals $pi%.3f") // System.out.format()
+  println(f"Pi equals $pi%.3f") // System.out.printf()
 }
