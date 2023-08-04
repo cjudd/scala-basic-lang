@@ -8,6 +8,9 @@ object Strings extends App {
   val interpolatedString: String = s"This is an interpolated $message with $pi"
   println(interpolatedString)
 
+  val evaluationString: String = s"This is the result of an evaluation ${1+2}."
+  println(evaluationString)
+
   val formattedString: String = f"PI is $pi%.3f" // String.format()
   println(formattedString)
 
