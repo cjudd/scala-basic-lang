@@ -17,4 +17,22 @@ object Strings extends App {
   val rawString: String = raw"PI is $pi%.3f"
   println(rawString)
 
+  val json: String =
+    """
+      |{
+      |  "donut_name":"Glazed Donut",
+      |  "taste_level":"Very Tasty",
+      |  "price":2.50
+      |}""".stripMargin
+  println(json)
+
+  val sjson: String =
+    s"""
+      |{
+      |  "message":"${message},
+      |  "pi":${pi}
+      |}
+      |""".stripMargin
+  println(sjson)
+
 }
