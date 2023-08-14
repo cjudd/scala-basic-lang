@@ -12,6 +12,7 @@ object Types extends App {
     true,
     (1, 2),
     "Pitt" -> 59,
+    1 to 10,
     this,
     Unit,
     (),
