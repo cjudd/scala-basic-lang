@@ -10,6 +10,8 @@ object Types extends App {
     'c',
     '☺', //\u263a
     true,
+    (1, 2),
+    "Pitt" -> 59,
     this,
     Unit,
     (),
