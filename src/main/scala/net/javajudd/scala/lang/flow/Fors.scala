@@ -20,4 +20,7 @@ object Fors extends App {
     println(s"${i}, ${j}")
   }
 
+  // expression
+  val doubles = for (i <- ints) yield (i * 2)
+  println(doubles)
 }
