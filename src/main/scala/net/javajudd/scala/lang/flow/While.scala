@@ -12,15 +12,11 @@ object While extends App {
   }
 
   println("Do While:")
+   // do-while is removed in Scala 3
   var y = 1
   do {
     println(y)
     y += 1
   } while (y < 3)
 
-  val t = while (x < 3) {
-    println(x)
-    x += 1
-  }
-  println(t)
 }
