@@ -14,7 +14,7 @@ object Strings extends App {
   val formattedString: String = f"PI is $pi%.3f" // String.format()
   println(formattedString)
 
-  val rawString: String = raw"PI is $pi%.3f"
+  val rawString: String = raw"^1?([2-9]\d{2}[2-9]\d{6})$$"
   println(rawString)
 
   val json: String =
