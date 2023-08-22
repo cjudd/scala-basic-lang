@@ -6,7 +6,7 @@ object TryDataType extends App {
 
   val result = sum(1, Int.MaxValue)
   result match {
-    case Failure(e) => println("Failed math")
+    case Failure(e) => println(s"Failed math with ${e.getMessage}")
     case Success(r) => println(s"result is ${r}")
   }
 
