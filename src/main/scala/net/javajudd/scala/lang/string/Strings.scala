@@ -1,5 +1,7 @@
 package net.javajudd.scala.lang.string
 
+import net.javajudd.scala.lang.string.CustomInterpolator._
+
 object Strings extends App {
 
   val pi: Double = 3.14159265359
@@ -35,4 +37,5 @@ object Strings extends App {
       |""".stripMargin
   println(sjson)
 
+  println(cats"I love Cats")
 }
