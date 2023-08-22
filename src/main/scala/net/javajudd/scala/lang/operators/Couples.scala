@@ -16,4 +16,7 @@ object Couples extends App {
 
   val couple = chris + sue
   println(couple)
+
+  val altCouple = chris.+(sue)
+  println(altCouple)
 }
