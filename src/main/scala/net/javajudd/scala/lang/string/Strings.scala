@@ -19,6 +19,9 @@ object Strings extends App {
   val rawString: String = raw"^1?([2-9]\d{2}[2-9]\d{6})$$"
   println(rawString)
 
+  val catsString: String = cats"I love Cats"
+  println(catsString)
+
   val json: String =
     """
       |{
@@ -36,6 +39,4 @@ object Strings extends App {
       |}
       |""".stripMargin
   println(sjson)
-
-  println(cats"I love Cats")
 }
