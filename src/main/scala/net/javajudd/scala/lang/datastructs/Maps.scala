@@ -10,7 +10,9 @@ object Maps extends App {
   val map = Map(1 -> "one", 2 -> "two", 3 -> "three", 4 -> "four", 5 -> "five")
 
   println(s"get 1: ${map(1)}")
+  // println(s"get 1: ${map(10)}") // NoSuchElementException
   println(s"get 2: ${map.get(2)}")
+  println(s"get 2: ${map.get(10)}")
   println(s"does map contain 3: ${map.contains(3)}")
 
   println(s"3: ${Try(map(3)) getOrElse "Unknown"}")
