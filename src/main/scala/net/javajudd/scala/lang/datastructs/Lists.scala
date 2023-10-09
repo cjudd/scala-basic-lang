@@ -36,4 +36,7 @@ object Lists extends App {
 
   val combinedList = mcuHeros ::: numberList
   println(s"Combined Lists: ${combinedList}")
+
+  val anotherComoList = mcuHeros ++ numberList
+  println(s"Another Combined Lists: ${anotherComoList}")
 }
