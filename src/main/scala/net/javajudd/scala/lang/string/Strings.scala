@@ -34,7 +34,7 @@ object Strings extends App {
   val sjson: String =
     s"""
       |{
-      |  "message":"${message},
+      |  "message":"${message}",
       |  "pi":${pi}
       |}
       |""".stripMargin
